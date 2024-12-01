@@ -72,5 +72,11 @@ namespace chess_club
                 e.Handled = !Regex.IsMatch(e.Key.ToString(), @"^D[0-9]$");
             }
         }
+
+        private int sum(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
     }
 }
